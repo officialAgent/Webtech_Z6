@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Zadanie 6
+    </title>
+    <link rel="stylesheet" href="css.css" type="text/css">
+
+</head>
+<body onresize="resize();">
+<header>
+    <h2>
+        Zadanie 6 <br> Graf
+    </h2>
+</header>
+
+<div id="data">
+    <label>Data:
+    </label><br>
+    <label>x:
+    </label>
+    <output id="x">
+    </output>
+    <br>
+    <label>y1:
+    </label>
+    <output id="y1">
+    </output>
+    <br>
+    <label>y2:
+    </label>
+    <output id="y2">
+    </output>
+    <br><br>
+</div>
+<div id=ovladanie>
+    <button class="btn-grad" onclick="start();">START</button>
+    <br>
+    <button class="btn-grad" onclick="stop();">STOP</button>
+
+</div>
+
+<div id="graf">
+    <div id="sincos">
+        <input type="checkbox" name="sin" value="sinus" id="sinus" onclick="showHide()">Sin(x)<br>
+        <input type="checkbox" name="cos" value="kosinus" id="kosinus" onclick="showHide()">Cos(x)<br>
+    </div>
+</div>
+
+<div id="zoom">
+    <input type="checkbox" id="texton">Text
+    <input type="checkbox" id="slideron">Slider<br>
+    <div id="textshow">
+        <label for="text" > Value <small>1-10</small>:</label>
+        <input type="text" class="value" id="text" name="value"><br><br>
+    </div>
+    <div id="slidershow">
+
+        <label for="volume">Value:</label>
+        <input type="range" class="value" id="volume" name="volume"
+               min="1" max="10">
+        <label id="output"></label>
+
+    </div>
+
+</div>
+
+<footer>
+    <h3>
+        © Tibor Ladi, 2020
+    </h3>
+</footer>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="js.js" async defer></script>
+</body>
+</html>
