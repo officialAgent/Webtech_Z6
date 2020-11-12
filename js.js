@@ -1,67 +1,6 @@
 
-
-document.getElementById("text").value=1;
-document.getElementById("volume").value=1;
-document.getElementById("output").textContent=document.getElementById("volume").value;
-document.getElementById("text").value=document.getElementById("volume").value;
-document.getElementById("textshow").style.display="none";
-document.getElementById("slidershow").style.display="none";
-
-document.getElementById("volume").addEventListener("mouseup",function (){
-    document.getElementById("text").value=document.getElementById("volume").value;
-    document.getElementById("output").textContent=document.getElementById("volume").value;
-
-})
-
-document.getElementById("text").addEventListener("blur",function (){
-    if(valid(document.getElementById("text"))) {
-        document.getElementById("output").textContent = document.getElementById("text").value;
-        document.getElementById("volume").value = document.getElementById("text").value;
-    }
-    else {
-        return false
-    }
-})
-
-document.getElementById("texton").addEventListener("change",function (){
-
-    if (this.checked === true){
-        document.getElementById("textshow").style.display="block";
-    }
-    else {
-        document.getElementById("textshow").style.display="none";
-    }
-})
-
-document.getElementById("slideron").addEventListener("change",function (){
-
-    if (this.checked === true){
-        document.getElementById("slidershow").style.display="block";
-    }
-    else {
-        document.getElementById("slidershow").style.display="none";
-    }
-})
-
-
-
-function valid (number){
-    if (/^\D*$/.test(number.value)) {
-        document.getElementById(number.id).style.borderColor = "red";
-        alert("Enterd invalid ipnut");
-        return false
-    }
-    else {
-        if (parseInt(number.value) < 1 || parseInt(number.value) > 10) {
-            alert("Enterd invalid ipnut");
-
-            return false
-        } else {
-
-            return true
-        }
-    }
-}
+let alma= new InputTextSlider();
+document.getElementById("zoom").appendChild(alma);
 
 
 
@@ -82,13 +21,8 @@ var show = {
 var hide = {
     visible:"legendonly"
 };
-var zoomPlus = {
-    zoom:'0.2'
-};
 
-function zoomIn(){
-    Plotly.relayout(document.getElementById('graf'),zoomPlus);
-}
+
 document.getElementById("sinus").checked=true;
 document.getElementById("kosinus").checked= true;
 function showHide(){
@@ -122,9 +56,7 @@ Plotly.plot('graf', [{
     name:'cos',
     mode: 'lines'
 }],layout, config);
-function rand() {
-    return Math.random();
-}
+
 function start(){
     if(typeof(EventSource) !== "undefined") {
         if(started===true){
@@ -149,8 +81,8 @@ function start(){
         source.onmessage = function(event) {
             var text=event.data;
             var casti=JSON.parse(text);
-            casti.y1=parseFloat(casti.y1)*document.getElementById("volume").value;
-            casti.y2=parseFloat(casti.y2)*document.getElementById("volume").value;
+            casti.y1=parseFloat(casti.y1)*alma.getVolumeValue();
+            casti.y2=parseFloat(casti.y2)*alma.getVolumeValue();
 
 
             document.getElementById("x").innerHTML = casti.x;

@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="95378e59-c132-417d-b9ba-50acc14d898e" name="Default Changelist" comment="" />
+    <list default="true" id="95378e59-c132-417d-b9ba-50acc14d898e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +44,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jxMzJx38PK5f3hhPMISrhZEK6R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,17 +72,44 @@
       <workItem from="1604741551601" duration="11361000" />
       <workItem from="1604828386343" duration="12959000" />
       <workItem from="1604912837395" duration="609000" />
-      <workItem from="1604948230774" duration="1620000" />
+      <workItem from="1604948230774" duration="5664000" />
+      <workItem from="1604956337534" duration="8446000" />
+      <workItem from="1605120047817" duration="4900000" />
+      <workItem from="1605128133653" duration="8080000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604916632548">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605003796699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1604916632548" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1605003796699" />
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1604950562554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1604950562554" />
+    <state x="825" y="227" key="Github.UntrackedFilesDialog" timestamp="1604950570079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="227" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1604950570079" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604957776632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1604957776632" />
   </component>
 </project>
